@@ -1,7 +1,7 @@
 package viktalina;
 
 public class HomeWork1 {
-  public static void main(String[] args){
+  public static void main(String[] args) {
     int intFirst = 5;
     int intSecond = 2;
     Double doubleFirst = 1.5;
@@ -22,22 +22,21 @@ public class HomeWork1 {
     int intThird = intFirst > intSecond && doubleFirst < doubleSecond ? 10 : 11;
     System.out.println(intThird);
 
-    if(intFirst <= intSecond != true) {
+    if (intFirst <= intSecond != true) {
       System.out.println("Success");
     } else {
       System.out.println("Fail");
     }
 
     // получить переполнение при арифметической операции
-
     int x = Integer.MAX_VALUE;
     int y = Integer.MAX_VALUE;
     int z = x * y;
     System.out.println(z);
 
     long d = Long.MIN_VALUE;
-    long g = - d;
-    System.out.println(d + ", "+ g);
+    long g = -d;
+    System.out.println(d + ", " + g);
 
 
     float a = Float.MAX_VALUE;
